@@ -40,3 +40,48 @@
 .read-the-docs {
   color: #888;
 }
+
+body {
+  background-color: #0d0d0d;
+  color: #00ffff;
+  font-family: "Courier New", Courier, monospace;
+}
+
+textarea {
+  border: 1px solid #00ffff;
+  resize: none;
+}
+
+header {
+  border-bottom: 2px solid #00ffff;
+}
+
+main {
+  display: flex;
+  height: calc(100vh - 100px);
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+p {
+  margin: 0.5rem 0;
+}
+
+button.fixed {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  background-color: #00ffff;
+  color: #000;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+button.fixed:hover {
+  background-color: #00cccc;
+}
